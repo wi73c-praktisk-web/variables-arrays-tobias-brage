@@ -11,7 +11,7 @@
  function getData(dataURI, callback) {
     console.log('første linje i getData funktionen...');
     var timer = setTimeout(function () {
-       console.log('Her der der gået 2 sekunder.');
+       console.log('Her er der gået 2 sekunder.');
        var dataArray = [12, 34, 56, 78, 90, 123, 456, 789];
        callback(dataArray);
     }, 2000);
